@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+package gamerscore;
+
+option go_package = "gamerscore/gamer";
+
+message MyMessage {
+    string playerName = 1;
+    string score = 2;
+}

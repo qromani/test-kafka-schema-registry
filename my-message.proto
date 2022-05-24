@@ -1,0 +1,12 @@
+
+syntax = "proto3";
+
+package br.com.quanto.demoproducer.proto;
+
+option java_package = "br.com.quanto.demoproducer.proto";
+option java_multiple_files = true;
+
+message MyMessage {
+    string content = 1;
+    string subject = 3;
+}
